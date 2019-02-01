@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#background-image {
+  background-image: url(../images/PGBackground.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#background-image2 {
+  background-image: url(../images/PGBackground2.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; 
+  /* so if something goes outside of a div, i want that content to be hidden */
+}
+
+header {
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d;
+}
+
+.title {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: x-large;
+  text-align: center;
+}
+
+
