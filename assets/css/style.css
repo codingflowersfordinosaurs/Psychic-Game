@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: #ffffff;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-}
-
 #background-image {
   background-image: url(../images/PGBackground.jpg);
   height: 100%;
@@ -31,18 +24,64 @@
 
 header {
   padding-top: 30px;
+  padding-bottom: 30px;
   min-height: 70px;
-  border-bottom: #e8491d;
 }
 
 .title {
-  font-size: xx-large;
+  font-size: 80px;
   text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: #ffffff;
 }
 
+
 .subTitle {
-  font-size: x-large;
+  font-size: 30px;
   text-align: center;
+  padding-top: 20px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: #ffffff;
+}
+
+#wins-text {
+  font-size: 30px;
+  color: black;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-weight: 900;
+}
+
+#losses-text {
+  font-size: 30px;
+  color: black;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-weight: 900;
+}
+
+#guessesLeft-text {
+  font-size: 30px;
+  color: black;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-weight: 900;
+}
+
+#guessedLetters-text {
+  font-size: 30px;
+  color: black;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  font-weight: 900;
 }
 
 
