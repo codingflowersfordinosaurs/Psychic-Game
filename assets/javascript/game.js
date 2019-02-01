@@ -60,5 +60,8 @@ document.onkeyup = function(event) {
     guessedLettersText.textContent = "Your guesses so far: " + guessedLetters.push(', ');
   
 }
+//guessedLetters will not show up
+// ERRORS: lines 48 and 60
+
 
 
